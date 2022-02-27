@@ -1,0 +1,29 @@
+.image{
+    background-image: url("https://media.istockphoto.com/photos/rays-neon-light-on-neon-brick-wall-with-wet-asphalt-empty-scene-copy-picture-id1299726583?b=1&k=20&m=1299726583&s=170667a&w=0&h=pzrWhhb6g-KbFq-R0GQZ_Ry0WLO4X89ahx-IBujV66A=");
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    color: rgb(187, 138, 243);
+    font-size: 50px;
+    font-family:cursive;
+    width: max-content;
+    animation-name: color;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes color {
+    from{color: aliceblue;}
+    to{color: rgb(187, 138, 243);} 
+}
+canvas {
+    border: 3px white solid;
+    animation-name: name;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes name{
+    from{ box-shadow: cornflowerblue;}
+    to{ box-shadow:rgb(82, 82, 230);}
+}
